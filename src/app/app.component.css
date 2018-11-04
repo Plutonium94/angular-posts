@@ -1,0 +1,49 @@
+main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:space-between;
+	align-items:stretch;
+	background-color:salmon;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 8px;
+}
+
+app-post-concise-list {
+	width: 39%;
+	height: 600px;
+	overflow-y: scroll;
+}
+
+app-post-detailed {
+	width: 54%;
+	caret-color: rgb(45,235,25);
+}
+
+header, footer {
+	padding: 15px;
+}
+
+::selection, app-post-concise-list::selection, app-post-detailed::selection {
+	color: rgb(225,56,42);
+	background-color: rgb(200,251,234);
+	text-decoration: underline;
+	text-shadow: ivory 3px 4px;
+}
+
+header {
+	text-align: center;
+	font-size: 3em;
+	color: ivory;
+	background-color: firebrick;
+}
+
+footer {
+	color: aliceblue;
+	background-color: tomato;
+}
+
+footer a {
+	text-decoration: rgba(251, 90, 96,0.3) wavy underline;
+	color: darkred;
+}

@@ -1,0 +1,22 @@
+.post-concise {
+	padding: 9px;
+	background-color: rgb(123,32,48);
+	border-radius : 5px;
+	color : rgb(200,100, 170);
+	width: 80%;
+	font-size: 18px;
+	font-family: fantasy;
+	cursor: pointer;
+}
+
+.post-concise .post-concise-id {
+	/*background-color: black;*/
+	background-image: linear-gradient(60deg, orange, yellow);
+	color: black;
+	font-family: fantasy;
+	margin-left:-3px;
+	font-size: 10px;
+	margin-right: 12px;
+	padding: 8px;
+
+}

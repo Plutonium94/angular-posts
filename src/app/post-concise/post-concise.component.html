@@ -1,0 +1,4 @@
+<p *ngFor="let p of posts" class="post-concise" (click)="changeDetailed($event)" [attr.data-id]="p.id" >
+	<span  [attr.data-id]="p.id" class="post-concise-id">{{p.id}}</span>  {{p.title | ellipsis}}
+	by {{p.authorName}}
+</p>

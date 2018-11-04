@@ -1,0 +1,25 @@
+article {
+	border: 9px solid darkred;
+	border-radius: 5px;
+	background-color: moccasin;
+	color: crimson;
+	padding: 4px 16px;
+}
+
+
+
+article div {
+	font-family: cursive;
+	word-break: break-all;
+}
+
+article p {
+	text-align: right;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+:host{
+	display: flex;
+	align-items:stretch;
+}
