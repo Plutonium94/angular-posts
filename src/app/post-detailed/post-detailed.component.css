@@ -23,3 +23,8 @@ article p {
 	display: flex;
 	align-items:stretch;
 }
+
+::selection {
+	color: red;
+	text-shadow: white 5px 9px;
+}
